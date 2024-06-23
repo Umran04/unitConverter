@@ -1,0 +1,104 @@
+body {
+    color: white;
+    background-color: rgb(16, 16, 16);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+#title{
+    width: 448.4px;
+    height: 38px;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+#input{
+    width: 117px;
+    height: 83px;
+    border: 1px solid white;
+    background: transparent;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+}
+
+#input:focus{
+    outline: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0C4A6E;
+    width: 550px;
+    height: 285px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+.conversion{
+    width: 550px;
+    height:444px;
+    background-color: #111827 ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding: 10px;
+    
+}
+
+.metrics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #273549;
+    color: white;
+    width: 500px;
+    height: 108.57px;
+    margin: 30px auto;
+    border-radius: 1px;
+
+}
+
+h4{
+    margin-bottom: 0px;
+    width: 346px;
+    height: 25px;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.Length,.Volume,.Mass{
+    margin: 0px 0px 5px 0px;
+    line-height: 5;
+    font-weight: normal;
+    
+}
+
+.btn{
+    background-color: white;
+    width: 117px;
+    height: 42px;
+    border: none;
+    border-radius: 6px;
+    color: #0C4A6E;
+}
+
+.btn:hover{
+    opacity: 75%;
+}
+
+.btn:active{
+    opacity: 50%;
+}
